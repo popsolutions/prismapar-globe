@@ -149,7 +149,7 @@ measelsSeries.tooltip.background.cornerRadius = 8;
 measelsSeries.tooltip.getStrokeFromObject = false
 /*measelsSeries.tooltip.stroke.fill = am4core.color("#033767");*/
 measelsSeries.tooltip.getFillFromObject = false;
-measelsSeries.tooltip.background.fill = am4core.color("#033767");
+measelsSeries.tooltip.background.fill = am4core.color("#379774");
 measelsSeries.tooltip.autoTextColor = false;
 measelsSeries.tooltip.dy = -5;
 
@@ -180,7 +180,7 @@ polygonSeries.events.on("inited", function () {
       var nombre = datos[1];
       var foto = datos[2];
 
-      polygon.tooltipHTML = '<div style="min-height:90px; min-width:200px; padding:10px;background-color:#033767"><table><tr><td><table><tr><td style="border-bottom:1px solid #fff;padding-bottom:10px;color:white">' + pais + '</td></tr><tr><td style="color:white">' + nombre + '</td></tr></table></td><td><img width="80" src="fotos/'+foto+'.png"></td></tr></table></div>';
+      polygon.tooltipHTML = '<div style="min-height:90px; min-width:200px; padding:10px;background-color:#379774"><table><tr><td><table><tr><td style="border-bottom:1px solid #fff;padding-bottom:10px;color:white">' + pais + '</td></tr><tr><td style="color:white">' + nombre + '</td></tr></table></td><td><img width="80" src="fotos/'+foto+'.png"></td></tr></table></div>';
 
       mapPolygon.dummyData = polygon;
       polygon.events.on("over", function () {
